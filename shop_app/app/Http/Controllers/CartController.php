@@ -22,7 +22,7 @@ class CartController extends Controller
     public function store(Request $request, Product $product): RedirectResponse
     {
         if (! $product->is_active || $product->stock <= 0) {
-            return back()->with('error', 'Khong du so luong san pham trong kho');
+            return back()->with('error', 'San pham da het hoac khong kha dung');
         }
 
         $validated = $request->validate([
