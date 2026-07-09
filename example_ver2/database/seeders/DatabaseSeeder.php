@@ -38,8 +38,8 @@ class DatabaseSeeder extends Seeder
 
         $products = collect([
             [
-                'name' => 'Binh giu nhiet mini',
-                'description' => 'Binh nho gon cho hoc tap va lam viec hang ngay.',
+                'name' => 'Dong ho thong minh',
+                'description' => 'Dong ho nho gon cho hoc tap va lam viec hang ngay.',
                 'price' => 159000,
                 'stock' => 25,
                 'image_url' => 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80',
